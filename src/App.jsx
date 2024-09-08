@@ -22,7 +22,7 @@ function App() {
     const headers = {
       'Content-Type': 'application/json',
     }
-    axios.post('http://user-service-backend:8000/add-user', formData, {
+    axios.post('http://user-service-backend:3000/add-user', formData, {
       headers: headers
     }).then((response) => {
       alert('User data added Successfully');
