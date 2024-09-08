@@ -22,7 +22,7 @@ function App() {
     const headers = {
       'Content-Type': 'application/json',
     }
-    axios.post('http://user-service-backend:3000/add-user', formData, {
+    axios.post('http://aa816d427285544d99d16fd56a0176b3-724427870.eu-west-1.elb.amazonaws.com:3000/add-user', formData, {
       headers: headers
     }).then((response) => {
       alert('User data added Successfully');
